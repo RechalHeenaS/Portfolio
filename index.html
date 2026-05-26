@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rechal Heena S — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cf"></div>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <span class="loader-mark">RH.</span>
+    <div class="loader-track"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-logo">RH<span class="dot">.</span></div>
+  <ul class="nav-list" id="nav-list">
+    <li><a href="#home"    class="nav-link">Home</a></li>
+    <li><a href="#about"   class="nav-link">About</a></li>
+    <li><a href="#skills"  class="nav-link">Skills</a></li>
+    <li><a href="#projects"class="nav-link">Projects</a></li>
+    <li><a href="#certifications" class="nav-link">Certs</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <a href="https://www.linkedin.com/in/rechal-heena-s/" target="_blank" class="nav-cta">
+    <span>Let's Connect</span> <i class="fas fa-arrow-right"></i>
+  </a>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- ======================== HERO ======================== -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="grid-bg"></div>
+    <div class="radial-1"></div>
+    <div class="radial-2"></div>
+    <!-- Decorative SVG chart shapes like the reference image -->
+    <div class="chart-decor">
+      <svg class="svg-pie" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M100 100 L100 10 A90 90 0 0 1 190 100 Z" fill="#00c8a0"/>
+        <path d="M100 100 L190 100 A90 90 0 0 1 55 172 Z" fill="#d4a017"/>
+        <path d="M100 100 L55 172 A90 90 0 1 1 100 10 Z" fill="#38bdf8" opacity=".5"/>
+      </svg>
+      <svg class="svg-bar" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="60" width="24" height="50" rx="3" fill="#00c8a0"/>
+        <rect x="46" y="30" width="24" height="80" rx="3" fill="#d4a017"/>
+        <rect x="82" y="45" width="24" height="65" rx="3" fill="#38bdf8"/>
+        <rect x="118" y="20" width="24" height="90" rx="3" fill="#00c8a0" opacity=".6"/>
+        <rect x="154" y="40" width="24" height="70" rx="3" fill="#d4a017" opacity=".5"/>
+      </svg>
+      <svg class="svg-pie2" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="80" stroke="#00c8a0" stroke-width="2"/>
+        <path d="M100 100 L100 20 A80 80 0 0 1 169 140 Z" fill="#00c8a0"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-pulse"></span>
+      <span>Available for opportunities</span>
+    </div>
+    <p class="hero-greeting">// Hello, I'm</p>
+    <h1 class="hero-name">RECHAL<span>HEENA S</span></h1>
+    <div class="hero-role">
+      And I'm a <span class="role-typed" id="role-typed"></span><span class="type-cur">|</span>
+    </div>
+    <p class="hero-desc">
+      Engineering student with a strong foundation in Python development and web technologies.
+      Experienced in building real-time applications and responsive websites.
+    </p>
+    <div class="hero-btns">
+      <a href="Resume.pdf" target="_blank" class="btn-gold">
+        <i class="fas fa-download"></i> View Resume
+      </a>
+      <a href="#projects" class="btn-ghost">
+        Explore Projects <i class="fas fa-arrow-down"></i>
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div><span class="stat-num">5+</span><span class="stat-lbl">Projects</span></div>
+      <div class="stat-sep"></div>
+      <div><span class="stat-num">6+</span><span class="stat-lbl">Certificates</span></div>
+      <div class="stat-sep"></div>
+      <div><span class="stat-num">2+</span><span class="stat-lbl">Years Learning</span></div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="portrait-wrap">
+      <div class="p-ring p-ring-1"></div>
+      <div class="p-ring p-ring-2"></div>
+      <div class="p-ring p-ring-3"></div>
+      <img src="rechal.png" alt="Rechal Heena S">
+      <div class="p-chip chip-1"><i class="fas fa-code"></i> Web Dev</div>
+      <div class="p-chip chip-2"><i class="fas fa-palette"></i> UI/UX</div>
+      <div class="p-chip chip-3"><i class="fab fa-python"></i> Python</div>
+    </div>
+  </div>
+
+ 
+  </div>
+</section>
+
+<!-- ======================== ABOUT ======================== -->
+<section class="about-section" id="about">
+  <div class="section-header">
+    <span class="section-eyebrow">01 — About</span>
+    <h2 class="section-title">Who I <em>Am</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm <strong>Rechal Heena S</strong>, an engineering student passionate about crafting beautiful digital experiences. I believe the intersection of design and code is where the most compelling work lives.</p>
+      <p>My expertise spans frontend development, UI/UX design, and Python-based backend scripting — giving me a holistic view of how products are built and used.</p>
+      <div class="about-pills">
+        <span>Problem Solver</span>
+        <span>Creative Thinker</span>
+        <span>Fast Learner</span>
+        <span>Collaborative</span>
+        <span>Detail Oriented</span>
+      </div>
+    </div>
+    <div class="info-glass reveal">
+      <div class="info-row"><span class="info-key">Location</span><span class="info-val">Tamil Nadu, India</span></div>
+      <div class="info-row"><span class="info-key">Education</span><span class="info-val">Engineering Student</span></div>
+      <div class="info-row"><span class="info-key">Focus</span><span class="info-val">Web Development</span></div>
+      <div class="info-row"><span class="info-key">Email</span><span class="info-val">rechalheena14@gmail.com</span></div>
+      <div class="info-row"><span class="info-key">GitHub</span><span class="info-val">RechalHeenaS</span></div>
+    </div>
+    <div class="about-experience">
+      <h2 class="section-title1">Internship Experience</h2>
+      <div class="experience-timeline">
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2026</span>
+            <span class="timeline-company">ShadowFox</span>
+          </div>
+          <h4>Web Developer Intern</h4>
+          <p>Completed a 1-month Web Development internship. Built my personal portfolio and an e-commerce website enhancement.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2025</span>
+            <span class="timeline-company">Synaesthesia</span>
+          </div>
+          <h4>Junior WordPress Developer Intern</h4>
+          <p>Completeda 3-month WordPress internship, working on WordPress-based web development tasks.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">2025</span>
+            <span class="timeline-company">ShadowFox</span>
+          </div>
+          <h4>Python Developer Intern</h4>
+          <p>Completed a 1-month Python Development internship. Built a web scraper and a Hangman game using core Python concepts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================== SKILLS ======================== -->
+<section class="skills-section" id="skills">
+  <div class="section-header">
+    <span class="section-eyebrow">02 — Expertise</span>
+    <h2 class="section-title">Skills &amp; <em>Tools</em></h2>
+  </div>
+
+  <div class="skills-cards">
+    <div class="sk-card reveal">
+      <div class="sk-icon"><i class="fas fa-code"></i></div>
+      <h3>Programming Languages</h3>
+      <p>Strong foundation in Python, C, and Java for building efficient applications and solving complex problems.
+      <br>Develops clean logic and reliable code across backend scripting and software projects.</p>
+      <div class="sk-pills"><span>C</span><span>Python</span><span>Java</span></div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-icon"><i class="fas fa-laptop-code"></i></div>
+      <h3>Frontend Technologies</h3>
+      <p>Build polished web interfaces with responsive HTML, CSS, and JavaScript.
+      <br>Use React, Bootstrap, and WordPress to deliver modern user experiences.</p>
+      <div class="sk-pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span><span>Bootstrap</span><span>WordPress</span></div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-icon"><i class="fas fa-server"></i></div>
+      <h3>Backend & Frameworks</h3>
+      <p>Develop backend services with Flask, FastAPI, Node.js, and Express.
+      <br>Deliver stable APIs and server-side logic for web applications.</p>
+      <div class="sk-pills"><span>Flask</span><span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>REST API</span></div>
+    </div>
+     <div class="sk-card reveal">
+      <div class="sk-icon"><i class="fas fa-database"></i></div>
+      <h3>Database</h3>
+      <p>Design and query relational and NoSQL databases with MySQL, SQLite, and MongoDB.
+      <br>Organize data effectively for reliable application performance.</p>
+      <div class="sk-pills"><span>MySQL</span><span>SQLite</span><span>MongoDB</span></div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-icon"><i class="fas fa-vector-square"></i></div>
+      <h3>UI/UX Design</h3>
+      <p>Create intuitive interface designs focused on usability and visual clarity.
+      <br>Use wireframes and user-centered principles to shape engaging experiences.</p>
+      <div class="sk-pills"><span>Figma</span><span>Wireframing</span><span>User Flow</span></div>
+    </div>
+    <div class="sk-card reveal">
+      <div class="sk-icon"><i class="fas fa-chart-pie"></i></div>
+      <h3>Data Analysis</h3>
+      <p>Present insights with Power BI dashboards and data visualizations.
+      <br>Turn raw data into actionable findings for smarter decisions.</p>
+      <div class="sk-pills"><span>Power BI</span></div>
+    </div>
+  </div>
+
+  
+</section>
+
+<!-- ======================== PROJECTS ======================== -->
+<section class="projects-section" id="projects">
+  <div class="section-header">
+    <span class="section-eyebrow">03 — Work</span>
+    <h2 class="section-title">Featured <em>Projects</em></h2>
+  </div>
+
+  <div class="filter-row">
+    <button class="f-btn active" data-f="all">All</button>
+    <button class="f-btn" data-f="design">Design</button>
+    <button class="f-btn" data-f="web">Web Dev</button>
+    <button class="f-btn" data-f="tool">Tools</button>
+  </div>
+
+  <div class="proj-grid" id="proj-grid">
+
+    <div class="proj-card reveal" data-cat="design">
+      <div class="proj-img">
+        <img src="thalappakatti.png" alt="Thalappakatti Restaurant">
+        <div class="proj-overlay">
+          <a class="ov-link" href="https://github.com/RechalHeenaS/Restaurant-Website" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          <a class="ov-link gold-ov" href="https://www.linkedin.com/posts/rechal-heena-s_figma-uiuxdesign-webdesign-activity-7404388121020256256-R0Xc" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="proj-body">
+        <span class="proj-cat">UI / UX Design</span>
+        <h3>Thalappakatti Restaurant</h3>
+        <p>Designed to understand real-world restaurant UI patterns, branding, and user-friendly navigation flows.</p>
+        <div class="proj-tags"><span>Figma</span><span>UI/UX</span><span>Wireframing</span><span>User Flow</span></div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-img">
+        <img src="portfolio.png" alt="Personal Portfolio">
+        <div class="proj-overlay">
+          <a class="ov-link" href="https://github.com/RechalHeenaS/My_PortFolio" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="ov-link gold-ov" href="https://www.linkedin.com/posts/rechal-heena-s_webdevelopment-html-css-activity-7364532134604095488-c8_F" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="proj-body">
+        <span class="proj-cat">Web Dev</span>
+        <h3>Personal Portfolio</h3>
+        <p>A responsive portfolio with clean layouts, visual consistency, and user-friendly design built from scratch.</p>
+        <div class="proj-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-img">
+        <img src="music player.png" alt="Music Hub">
+        <div class="proj-overlay">
+          <a class="ov-link" href="https://github.com/RechalHeenaS/Music-Player" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="ov-link gold-ov" href="https://www.linkedin.com/posts/rechal-heena-s_webdevelopment-musicplayer-javascript-activity-7364528968273731585-I-ke" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="proj-body">
+        <span class="proj-cat">Web Dev</span>
+        <h3>Music Hub Player</h3>
+        <p>A web music player organizing device songs with categorized playlists and online platform integration.</p>
+        <div class="proj-tags"><span>HTML</span><span>CSS Grid</span><span>JavaScript</span></div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="tool">
+      <div class="proj-img">
+        <img src="attendance.png" alt="Attendance System">
+        <div class="proj-overlay">
+          <a class="ov-link" href="https://github.com/RechalHeenaS/Student-Attendance-Management" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="ov-link gold-ov" href="https://www.linkedin.com/posts/rechal-heena-s_webdevelopment-edtech-innovation-activity-7352374286977855489-fvyg" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="proj-body">
+        <span class="proj-cat">Web Tool</span>
+        <h3>Attendance & OD Management</h3>
+        <p>A web-based system to manage student attendance and OD/Leave requests with GPS tracking support.</p>
+        <div class="proj-tags"><span>HTML</span><span>Geolocation API</span></div>
+      </div>
+    </div>
+
+    <div class="proj-card reveal" data-cat="web">
+      <div class="proj-img">
+        <img src="cilantrofarms website.png" alt="Cilantro Farms">
+        <div class="proj-overlay">
+          <a class="ov-link" href="https://github.com/RechalHeenaS/cilantro-farms" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="ov-link gold-ov" href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="proj-body">
+        <span class="proj-cat">Web Dev</span>
+        <h3>Cilantro Farms Website</h3>
+        <p>A dynamic WordPress eco-stay and organic farming site showcasing amenities, experiences, and enquiries.</p>
+        <div class="proj-tags"><span>WordPress</span><span>HTML</span><span>CSS</span></div>
+      </div>
+    </div>
+
+     <div class="proj-card reveal" data-cat="web">
+      <div class="proj-img">
+        <img src="hostel.jpeg" alt="Hostel Management">
+        <div class="proj-overlay">
+          <a class="ov-link" href="https://github.com/RechalHeenaS/cilantro-farms" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="ov-link gold-ov" href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="proj-body">
+        <span class="proj-cat">Web Application</span>
+        <h3>Hostel Management System</h3>
+        <p>A system to manage hostel rooms, students, attendance.</p>
+        <div class="proj-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React.js</span><span>Node.js</span><span>MySQL</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ======================== CERTIFICATIONS ======================== -->
+<section class="cert-section" id="certifications">
+  <div class="section-header">
+    <span class="section-eyebrow">04 — Achievements</span>
+    <h2 class="section-title"><em>Certifications</em></h2>
+  </div>
+  <div class="cert-wrap">
+    <button class="cert-btn" id="cert-prev"><i class="fas fa-chevron-left"></i></button>
+    <div class="cert-viewport">
+      <div class="cert-track" id="cert-track">
+        <div class="cert-slide"><img src="c.jpeg" alt="C"><div class="cert-caption">C Programming</div></div>
+        <div class="cert-slide"><img src="Python.jpeg" alt="Python"><div class="cert-caption">Python Basics</div></div>
+        <div class="cert-slide"><img src="sql.jpeg" alt="SQL"><div class="cert-caption">SQL Fundamentals</div></div>
+        <div class="cert-slide"><img src="bronze.jpeg" alt="Bronze"><div class="cert-caption">Bronze Badge</div></div>
+        <div class="cert-slide"><img src="c arithmetic.jpeg" alt="C Arith"><div class="cert-caption">C Arithmetic</div></div>
+        <div class="cert-slide"><img src="c io.jpeg" alt="C IO"><div class="cert-caption">C I/O Operations</div></div>
+        <div class="cert-slide"><img src="Skill rack kickstart.jpeg" alt="Skill Rack"><div class="cert-caption">Skill Rack Kickstart</div></div>
+        <div class="cert-slide"><img src="Claude AI.jpg" alt="Claude"><div class="cert-caption">Claude Certification</div></div>
+         <div class="cert-slide"><img src="Python_skillRack.jpeg" alt="Python SkillRack"><div class="cert-caption">Python 50-Very Easy Challenges</div></div>
+      </div>
+    </div>
+    <button class="cert-btn" id="cert-next"><i class="fas fa-chevron-right"></i></button>
+  </div>
+  <div class="cert-dots" id="cert-dots"></div>
+</section>
+
+<!-- ======================== CONTACT ======================== -->
+<section class="contact-section" id="contact">
+  <div class="section-header">
+    <span class="section-eyebrow">05 — Reach Out</span>
+    <h2 class="section-title">Get In <em>Touch</em></h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-text">
+      <p>Have a project in mind, a collaboration idea, or just want to say hello? Feel free to reach out — I'd love to connect and build something meaningful together.</p>
+      <div class="c-items">
+        <a href="mailto:rechalheena14@gmail.com" class="c-item reveal">
+          <div class="c-ico"><i class="fas fa-envelope"></i></div>
+          <div><span class="c-lbl">EMAIL</span><span class="c-val">rechalheena14@gmail.com</span></div>
+        </a>
+        <a href="https://github.com/RechalHeenaS/" target="_blank" class="c-item reveal">
+          <div class="c-ico"><i class="fab fa-github"></i></div>
+          <div><span class="c-lbl">GITHUB</span><span class="c-val">github.com/RechalHeenaS</span></div>
+        </a>
+        <a href="https://www.linkedin.com/in/rechal-heena-s/" target="_blank" class="c-item reveal">
+          <div class="c-ico"><i class="fab fa-linkedin"></i></div>
+          <div><span class="c-lbl">LINKEDIN</span><span class="c-val">rechal-heena-s</span></div>
+        </a>
+      </div>
+    </div>
+    <div class="form-glass reveal">
+      <form id="contact-form" action="mailto:rechalheena14@gmail.com" method="post" enctype="text/plain">
+        <div class="form-field">
+          <input type="text" id="name" name="name" placeholder=" " required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="form-field">
+          <input type="email" id="email" name="email" placeholder=" " required>
+          <label for="email">Your Email</label>
+        </div>
+        <div class="form-field">
+          <textarea id="msg" name="message" rows="4" placeholder=" " required></textarea>
+          <label for="msg">Your Message</label>
+        </div>
+        <button type="submit" class="form-submit">
+          Send Message <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">RH<span class="dot">.</span></div>
+    <p>Designed &amp; Built by Rechal Heena S &copy; 2025</p>
+    <div class="f-socials">
+      <a href="https://github.com/RechalHeenaS/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/rechal-heena-s/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:rechalheena14@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="back-top"><i class="fas fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
